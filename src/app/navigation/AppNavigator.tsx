@@ -1,5 +1,5 @@
 import React from 'react';
-import {useAuth} from '@clerk/clerk-react-native';
+import {useAuth} from '@clerk/clerk-expo';
 import {AuthNavigator} from './AuthNavigator';
 import {MainNavigator} from './MainNavigator';
 

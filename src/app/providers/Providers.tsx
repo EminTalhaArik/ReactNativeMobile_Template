@@ -1,5 +1,5 @@
 import React, {PropsWithChildren, useEffect} from 'react';
-import {ClerkProvider, ClerkLoaded, useAuth} from '@clerk/clerk-react-native';
+import {ClerkProvider, ClerkLoaded, useAuth} from '@clerk/clerk-expo';
 import {NavigationContainer} from '@react-navigation/native';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
 import {SafeAreaProvider} from 'react-native-safe-area-context';

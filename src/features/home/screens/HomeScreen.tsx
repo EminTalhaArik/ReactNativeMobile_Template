@@ -5,7 +5,7 @@ import {Text} from '@shared/components/Text';
 import {Button} from '@shared/components/Button';
 import {Card} from '@shared/components/Card';
 import {useThemePreference} from '@shared/hooks/useThemePreference';
-import {useUser} from '@clerk/clerk-react-native';
+import {useUser} from '@clerk/clerk-expo';
 
 export const HomeScreen: React.FC = () => {
   const {toggle, preference} = useThemePreference();

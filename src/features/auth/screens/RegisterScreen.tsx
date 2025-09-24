@@ -4,7 +4,7 @@ import {z} from 'zod';
 import {zodResolver} from '@hookform/resolvers/zod';
 import {TouchableOpacity} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
-import {useSignUp} from '@clerk/clerk-react-native';
+import {useSignUp} from '@clerk/clerk-expo';
 import {ScreenContainer} from '@shared/components/ScreenContainer';
 import {Input} from '@shared/components/Input';
 import {Button} from '@shared/components/Button';

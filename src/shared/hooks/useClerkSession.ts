@@ -1,4 +1,4 @@
-import {useAuth, useUser} from '@clerk/clerk-react-native';
+import {useAuth, useUser} from '@clerk/clerk-expo';
 import {useCallback} from 'react';
 
 export const useClerkSession = () => {
